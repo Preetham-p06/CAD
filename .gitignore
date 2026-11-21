@@ -1,0 +1,59 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+# Private data and outputs at any depth
+input/
+private/
+work/
+output/
+outputs/
+submissions/
+corpus/
+attempt-*/
+*.sqlite*
+*.db
+*.log
+# Credentials
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+*token*.json
+# CAD and binary corpus (synthetic text fixtures only)
+*.pdf
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.sldprt
+*.sldasm
+*.slddrw
+*.ipt
+*.iam
+*.idw
+*.dwg
+*.dxf
+*.step
+*.stp
+*.iges
+*.igs
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+# Local editor files
+.DS_Store
+.idea/
+.vscode/

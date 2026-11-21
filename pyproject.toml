@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools==75.6.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "machina-deid"
+version = "0.0.1"
+description = "Machina CAD de-identification pipeline scaffold"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+machina = "machina.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
